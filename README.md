@@ -1,4 +1,4 @@
-# Build a RAG in PGP with LLPhant + Llama3.2 + Elasticsearch
+# Build a RAG in PHP with LLPhant, Llama3.2 and Elasticsearch
 
 This is an example of **Retrieval-Augmented Generation (RAG)** in PHP using [LLPhant](https://github.com/theodo-group/LLPhant), [Llama 3.2][Llama 3.2](https://www.llama.com/) and [Elasticsearch](https://github.com/elastic/elasticsearch).
 
@@ -47,14 +47,15 @@ Elasticsearch and Kibana will run locally at http://localhost:9200 and http://lo
 
 All the settings of Elasticsearch and Kibana are stored in the `elastic-start-local/.env` file.
 
-## Install the PHP project
+## Install the RAG example
 
-[LLPhant](https://github.com/theodo-group/LLPhant) is the PHP library that we used in this project.
-This library will be installed using [composer](), as follows:
+You can install the PHP RAG example using [composer](https://getcomposer.org/), as follows:
 
 ```bash
 composer install
 ```
+
+If you don't have composer installed you can download it from [here](https://getcomposer.org/download/).
 
 ## Add the Nobel Prize 2024 knowledge
 
@@ -63,7 +64,10 @@ We need to store the knowledge about the Nobel Prize of 2024. We need to use a v
 
 If you are not familiar with the RAG architecture, you can watch [this introduction](https://www.youtube.com/watch?v=exQR-eXRDvU).
 
-The information about the Nobel Prize of 2024 is stored in a PDF file [data/nobel_prize_physics_2024.pdf](data/nobel_prize_physics_2024.pdf). We will use LLPhant to do the following steps:
+The information about the Nobel Prize of 2024 is stored in a PDF file [data/nobel_prize_physics_2024.pdf](data/nobel_prize_physics_2024.pdf). This is PDF version of the content of this web page:
+https://www.nobelprize.org/prizes/physics/2024/popular-information/.
+
+We will use LLPhant to do the following steps:
 - read the PDF file;
 - extract the text from the PDF;
 - split the document in chunk of 800 characters;
@@ -94,7 +98,7 @@ We used 4 documents to answer the question, as follows:
 -- Content of 485 characters, extract: Professor at  University of Toronto, Canada...
 ```
 
-We expanded the knowledge of Llama 3.2 that now knows who won the Nobel Prize in Physics for 2024!
+We expanded the knowledge of Llama 3.2, now it knows who won the Nobel Prize in Physics 2024!
 
 # Copyright
 
