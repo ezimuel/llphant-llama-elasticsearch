@@ -95,7 +95,8 @@ We used 4 documents to answer the question, as follows:
 
 -- Document: ./data/nobel_prize_physics_2024.pdf
 -- Hash: 899fd14b31a9c2989ec584ff7fe766bbb6907378fd14083f5f6933fcb7ec75f1
--- Content of 485 characters, extract: Professor at  University of Toronto, Canada...
+-- Content of 485 characters, extract: Professor at  University of Toronto, Canada
+...
 ```
 
 We expanded the knowledge of Llama 3.2, now it knows who won the Nobel Prize in Physics 2024!
