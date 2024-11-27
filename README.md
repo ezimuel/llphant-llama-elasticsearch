@@ -1,6 +1,6 @@
 # Build a RAG in PHP with LLPhant, Llama3.2 and Elasticsearch
 
-This is an example of **Retrieval-Augmented Generation (RAG)** in PHP using [LLPhant](https://github.com/theodo-group/LLPhant), [Llama 3.2][Llama 3.2](https://www.llama.com/) and [Elasticsearch](https://github.com/elastic/elasticsearch).
+This is an example of **Retrieval-Augmented Generation (RAG)** in PHP using [LLPhant](https://github.com/theodo-group/LLPhant), [Llama 3.2](https://www.llama.com/) and [Elasticsearch](https://github.com/elastic/elasticsearch).
 
 To show the usage of a RAG system, we want Llama 3.2 answering to the following question:
 
